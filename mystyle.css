@@ -1,0 +1,31 @@
+body {
+    background-color: honeydew;
+    
+  }
+  ul {
+    list-style-type:none;
+    Margin: 0;
+    Padding: 0;
+    position:-webkit-sticky;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    outline-width: 3px;
+    outline-color:invert;
+  }
+  li {
+    float: left;
+    border: 3px inset;
+    border-color:gray;
+  }
+  li a {
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+  }
+li:hover {
+  background-color: #99CC99;
+}
