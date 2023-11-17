@@ -11,13 +11,15 @@
   </head>
   <body>
     <header>
-        <h1>Sage Visser</h1>
-        <ul>
-            <li><a href="about">About Me</a></li>
-            <li><a href="work">My Work</a></li>
-            <li><a href="skills">Skills</a></li>
-            <li><a href="experience">Work Experience</a></li>
-            <li><a href="contact">Contact Me!</a></li>
+        <h1 id="name">Sage Visser</h1>
+        <ul class="n">
+            <li id="a"><a href="about">About Me</a></li>
+            <li id="b"><a href="work">My Work</a></li>
+            <li id="c"><a href="skills">Skills</a></li>
+            <li id="d"><a href="experience">Work Experience</a></li>
+            <li id="e"><a href="contact">Contact Me!</a></li>
+            </ul>
+        </section>
         </nav>
     </header>
     <main>
@@ -40,32 +42,43 @@
 
         <section id="skills">
             <h2>My Skills</h2>   
-            <ul>
-                    <li>Adobe Creative Suite</li>
-                    <li>Microsoft office Suite</li>
-                    <li>Digital Photography</li>
+            <ul class="s">
+                    <li>Adobe Creative Suite</li><br>
+                    <li>Microsoft office Suite</li><br>
+                    <li>Digital Photography</li><br>
                 </ul>
         </section>
 
         <section id="experience">
             <h2>Work Experience</h2>
-            <p><strong>One Step Ahead Dance Studio</strong> - <em>Sep. 2018-Mar.2020</em><br>
-            Student Dance Teacher<br>
-            <ol>
-                <li>Led warm up and cool down exercises.</li>
-                <li> Demonstrated dance moves.</li>
-                <li>Helped with managing young dancers.</li>
-            </ol>
-            </p>
-            <p><strong>Abbey Road Photography</strong> - <em>Oct. 2017-Nov. 2019</em><br>
-                Hockey Photo Assistant<br>
-                <ol>
-                    <li>Set up and put away photo stations.</li>
-                    <li>Posistioned players in solo and group photos.</li>
-                    <li>Helped with file management.</li>
-                </ol>
-            </p>
-        </section>
+            <table>
+                <thead>
+                  <tr>
+                    <th class="company" colspan="2">One Step Ahead Dance Studio</th>
+                    <th class="company" colspan="2">Abbey Road Photography</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="dates">Sep. 2018-Mar. 2020</td>
+                    <td class="position">Student Dance Teacher</td>
+                    <td class="dates">Oct. 2017-Nov. 2019</td>
+                    <td class="position">Hockey Photo Assistant</td>
+                  </tr>
+                  <tr>
+                    <td class="tasks" colspan="2">Led warm up and cool down exercises.</td>
+                    <td class="tasks" colspan="2">Set up and put away photo stations.</td>
+                  </tr>
+                  <tr>
+                    <td class="tasks" colspan="2">Demonstrated dance moves.</td>
+                    <td class="tasks" colspan="2">Positioned players in solo and group photos.</td>
+                  </tr>
+                  <tr>
+                    <td class="tasks" colspan="2">Helped with managing young dancers.</td>
+                    <td class="tasks" colspan="2">Helped with file management.</td>
+                  </tr>
+                </tbody>
+                </table>
 
         <section id="contact">
             <h2>Contact Me!</h2>
