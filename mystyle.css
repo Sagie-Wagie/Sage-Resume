@@ -4,26 +4,35 @@ body {
     background-color: lavenderblush;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-/*Navigation Bar*/  
+h1 {
+  font-size: auto;
+  text-align:center
+}
+h2 {
+  font-size: auto;
+  Margin-left: 1%;
+  padding-top: 20px;
+}
 header {
   width: 100%;
+  background-color: rgb(187, 187, 238);
+  padding: 5px;
 }
-#name {
-  background-color: #f1f1f1;
+.name {
   padding: 20px;
   text-align: center;
 }
 .nav {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  border-top: 1px solid black;
+  padding-left: 20px;
   overflow: hidden;
-  background-color: gainsboro;
+  background-color: rgb(187, 187, 238);
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  width: auto;
-  border-radius: 15px;
+  width: 100%;
 }
 li {
   float: left;
@@ -31,7 +40,6 @@ li {
 li a {
   display: block;
   color: black;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: large;
@@ -40,32 +48,46 @@ li a:hover {
   background-color: #9dc183;
   font-weight: bold;
 }
-h1 {
-  font-size: auto;
-  text-align:center
-}
-h2, h3 {
-  font-size: auto;
-  Margin-left: 1%
-}
-.about, .photos, .skills, .work, .email {
+
+.about, .skills, .work, .email {
   margin-left: 1%;
 }
-/*.images {
-  width: 20%;
-  margin: 10px 5px;
-  padding: 10px 5px;
-  border-radius: 5px;
-}*/
-.skills {
-  list-style-type: none;
-
+.work {
+  text-align: center;
+}
+.tech, .char {
+  display: inline-block;
+  vertical-align: middle;
+}
+.tech {
+  background-color: #E3DAF6;
+  border: 1px solid black;
+  width: 250px;
+  height: 130px;
+  padding-top: 20px;
+  text-align:center;
+  vertical-align:middle;
+  line-height: 1.5;
+  display: inline-block;
+  text-align: middle;
+}
+.char {
+  background-color: #E3DAF6;
+  border: 1px solid black;
+  width: 250px;
+  height: 130px;
+  padding-top: 20px;
+  text-align: center;
+  overflow: hidden;
 }
 table {
   border-collapse: collapse;
   border-spacing: 0;
   width: auto;
+  background-color: aliceblue;
   border: 1px solid black;
+  vertical-align: center;
+  margin: auto;
 }
 th, td {
   padding: 20px;
@@ -74,19 +96,8 @@ th, td {
 th {
   font-weight: bold;
   text-align: center;
+  background-color: gainsboro;
 }
-/*.montreal, .fairmont {
-  background-color: #fff;
-  padding-left: 5px;
-  padding-right: 5px;
-
-  box-shadow: 5px 7px 4px #888888;
-}
-
-figcaption {
-  color: #000;
-  text-align: center;
-}*/
 div.polaroid {
   background-color: white;
   padding: 15px 10px 25px 10px;
@@ -99,5 +110,12 @@ div.container {
   text-align: center;
   width: auto;
   padding-top: 15px;
-  font-family: "Shadows Into Your Light Two";
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+#contact, .email {
+  text-align: center;
+}
+footer {
+  text-align: right
 }
