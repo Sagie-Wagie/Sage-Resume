@@ -1,0 +1,121 @@
+body {
+    /*background-color: honeydew;*/
+    /*background-color: rgba(50, 50, 100, 0.2);*/
+    background-color: lavenderblush;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+h1 {
+  font-size: auto;
+  text-align:center
+}
+h2 {
+  font-size: auto;
+  Margin-left: 1%;
+  padding-top: 20px;
+}
+header {
+  width: 100%;
+  background-color: rgb(187, 187, 238);
+  padding: 5px;
+}
+.name {
+  padding: 20px;
+  text-align: center;
+}
+.nav {
+  list-style-type: none;
+  margin: 0;
+  border-top: 1px solid black;
+  padding-left: 20px;
+  overflow: hidden;
+  background-color: rgb(187, 187, 238);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;
+}
+li a:hover {
+  background-color: #9dc183;
+  font-weight: bold;
+}
+
+.about, .skills, .work, .email {
+  margin-left: 1%;
+}
+.work {
+  text-align: center;
+}
+.tech, .char {
+  display: inline-block;
+  vertical-align: middle;
+}
+.tech {
+  background-color: #E3DAF6;
+  border: 1px solid black;
+  width: 250px;
+  height: 130px;
+  padding-top: 20px;
+  text-align:center;
+  vertical-align:middle;
+  line-height: 1.5;
+  display: inline-block;
+  text-align: middle;
+}
+.char {
+  background-color: #E3DAF6;
+  border: 1px solid black;
+  width: 250px;
+  height: 130px;
+  padding-top: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: auto;
+  background-color: aliceblue;
+  border: 1px solid black;
+  vertical-align: center;
+  margin: auto;
+}
+th, td {
+  padding: 20px;
+  border: 1px solid black;
+}
+th {
+  font-weight: bold;
+  text-align: center;
+  background-color: gainsboro;
+}
+div.polaroid {
+  background-color: white;
+  padding: 15px 10px 25px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-right: 45px;
+  display: inline-block;
+}
+div.container {
+  text-align: center;
+  width: auto;
+  padding-top: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+#contact, .email {
+  text-align: center;
+}
+footer {
+  text-align: right
+}

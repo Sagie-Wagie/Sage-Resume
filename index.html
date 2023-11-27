@@ -1,92 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Sage Visser's Resume</title>
-    <meta charset="UTF-8">
-  <meta name="description" content="Resume and Portfolio">
-  <meta name="keywords" content="HTML">
-  <meta name="author" content="Sage Visser">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    td, th {
-    border: 1px solid #000000;
-    text-align: left;
-    padding: 8px;
-}
-    
-  </style>
-  </head>
-  <body>
-    <header>
+  <html lang="en">
+    <head>
+      <title>Sage Visser's Resume</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Resume and Portfolio">
+        <meta name="keywords" content="HTML">
+        <meta name="author" content="Sage Visser">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body >
+      <header>
+          <div class="header">
         <h1>Sage Visser</h1>
-        <nav>
-            <table>
-                <tr>
-                  <td><a href="about">About Me</a></td>
-                  <td><a href="work">My Work</a></td>
-                  <td><a href="skills">Skills</a></td>
-                  <td><a href="experience">Work Experience</a></td>
-                  <td><a href="contact">Contact Me!</a></td>
-                </tr>
-              </table>
+          </div>
+      </header>
+      <main>
+        <ul div class="nav">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#work">My Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Work Experience</a></li>
+          <li><a href="#contact">Contact Me!</a></li>
+        </ul>
+          </div>
 
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-                <p>Currently attending SAIT. i enjoy being creative and doing hands on activities.
-                    I enjoy photography, crochet, reading, and video games.
-                </p>
-                <a href="https://www.youtube.com/watch?v=wzvC-50MfVY&ab_channel=Blue1312">great movie line</a>
-                <a href="https://www.youtube.com/watch?v=TRgdA9_FsXM&ab_channel=WAOgilvy">Pizza Time</a>
-        </section>
-
-        <section id="work">
-            <h2>My Work</h2>
+        <h2 id="about">About Me</h2>
+          <div class="about">
+            <p>School: Currently at SAIT.<br>
+              I enjoy being creative and doing hands on tasks like crochet, baking, photography, and of course video games.
+            </p>
+          <a href="https://www.youtube.com/watch?v=wzvC-50MfVY&ab_channel=Blue1312">Great Movie Line</a>
+            <br>
+          <a href="https://www.youtube.com/watch?v=TRgdA9_FsXM&ab_channel=WAOgilvy">Pizza Time!</a>
+          </div>
+        <h2 id="work">My Work</h2>
+          <div class="work">
             <p>These are two photos I have taken with my Nikon D3300 DSLR camera.</p>
-            <img src="flowers.jpg" alt="white flowers in a bundle on a tree" width="400" height="600">
-            <img src="monty.jpg" alt="My dog, named Monty, sitting and is wet." width="600" height="600">
-            <!--Monty was extremly excited and maybe too happy to jump around in a river. He didn't swim but he did frolick a little.-->
-        </section>
-
-        <section id="skills">
-            <h2>My Skills</h2>   
-            <ul>
-                    <li>Adobe Creative Suite</li>
-                    <li>Microsoft office Suite</li>
-                    <li>Digital Photography</li>
-                </ul>
-        </section>
-
-        <section id="experience">
-            <h2>Work Experience</h2>
-            <p><strong>One Step Ahead Dance Studio</strong> - <em>Sep. 2018-Mar.2020</em><br>
-            Student Dance Teacher<br>
-            <ol>
-                <li>Led warm up and cool down exercises.</li>
-                <li> Demonstrated dance moves.</li>
-                <li>Helped with managing young dancers.</li>
-            </ol>
+            <div class="polaroid">
+              <img src="girl-in-window.jpg" alt="Lady with a cigarette and a phone on a windowsill." width="400px" height="400px">
+              <div class="container">
+                <figcaption>Montreal, Summer 2022</figcaption>
+              </div>
+            </div>
+            <div class="polaroid">
+                <img src="monty.jpg" alt="Wet dog sitting with dark spots on his snout." width="400px" height="400px">
+                <div class="container">
+                  <figcaption>Monty, May 2022</figcaption>
+                  <!-- Monty was extremly excited and maybe too happy to jump around in a river. He didn't swim but he did frolick a little.-->
+                </div>
+            </div>
+          </div>
+              
+              </figure>
+        <h2 id="skills">My Skills</h2>
+        <div class="skills">
+          <div class="tech">
+            <strong>Technical</strong><br>
+              Adobe Creative Suite<br>
+              Digital Photography<br>
+              Photo Editing<br>
+          </div>
+          <div class="char">
+            <strong>Characteristics</strong><br>
+              Motivated<br>
+              Positive Attitude<br>
+              Compassionate<br>
+              Charismatic<br>
+              Creative<br>
+          </div>
+        </div>
+        <h2 id="experience">Work Experience</h2>
+          <div class="work">
+            <table>
+              <thead>
+                <tr>
+                  <th class="company" colspan="2">One Step Ahead Dance Studio</th>
+                  <th class="company" colspan="2">Abbey Road Photography</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="dates"><em>Sep. 2018-Mar. 2020</em></td>
+                  <td class="position">Student Dance Teacher</td>
+                  <td class="dates"><em>Oct. 2017-Nov. 2019</em></td>
+                  <td class="position">Hockey Photo Assistant</td>
+                </tr>
+                <tr>
+                  <td class="tasks" colspan="2">Led warm up and cool down exercises.</td>
+                  <td class="tasks" colspan="2">Set up and put away photo stations.</td>
+                </tr>
+                <tr>
+                  <td class="tasks" colspan="2">Demonstrated dance moves.</td>
+                  <td class="tasks" colspan="2">Positioned players in solo and group photos.</td>
+                </tr>
+                <tr>
+                  <td class="tasks" colspan="2">Helped with managing young dancers.</td>
+                  <td class="tasks" colspan="2">Helped with file management.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+            <h2 id="contact">Contact Me!</h2>
+            <div class="email"><p>
+              <a href='ma&#105;lt&#111;&#58;sa%6&#55;e&#118;&#105;%73s&#101;r&#57;&#64;&#103;m%61&#105;&#108;&#46;c&#111;&#109;'>sage&#118;isse&#114;9&#64;g&#109;&#97;il&#46;&#99;&#111;m</a>
             </p>
-            <p><strong>Abbey Road Photography</strong> - <em>Oct. 2017-Nov. 2019</em><br>
-                Hockey Photo Assistant<br>
-                <ol>
-                    <li>Set up and put away photo stations.</li>
-                    <li>Posistioned players in solo and group photos.</li>
-                    <li>Helped with file management.</li>
-                </ol>
-            </p>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Me!</h2>
-                <p><a href='ma&#105;lt&#111;&#58;sa%6&#55;e&#118;&#105;%73s&#101;r&#57;&#64;&#103;m%61&#105;&#108;&#46;c&#111;&#109;'>sage&#118;isse&#114;9&#64;g&#109;&#97;il&#46;&#99;&#111;m</a>
-                </p>
-        </section>
-    </main>
-    <footer>
-&copy; Sage Visser, 2023
-    </footer>
-  </body>
+          </div>
+      </main>
+      <footer>
+        &copy; Sage Visser, 2023
+      </footer>
+    </body>
 </html>
